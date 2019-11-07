@@ -3,48 +3,48 @@
 using namespace std;
 float cPoint2::getX()
 {
-	return nX;
+	return fX;
 }
 
 float cPoint2::getY()
 {
-	return nY;
+	return fY;
 }
 //seteur
-void cPoint2::setX(float nX)
+void cPoint2::setX(float fX)
 {
-	this->nX = nX;
+	this->fX = fX;
 }
 
-void cPoint2::setY(float nY)
+void cPoint2::setY(float fY)
 {
-	this->nY = nY;
+	this->fY = fY;
 }
 //init
-void cPoint2::init(float nX, float nY)
+void cPoint2::init(float fX, float fY)
 {
-	this->nX = nX;
-	this->nY = nY;
+	this->fX = fX;
+	this->fY = fY;
 }
-void cPoint2::deplacement(float nX, float nY)
+void cPoint2::deplacement(float fX, float fY)
 {
-	this->nX = nX;
-	this->nY = nY;
+	this->fX = fX;
+	this->fY = fY;
 }
-cPoint2::cPoint2(float nX, float nY)
+cPoint2::cPoint2(float fX, float fY)
 {
-	this->nX = nX;
-	this->nY = nY;
+	this->fX = fX;
+	this->fY = fY;
 }
 
 float cPoint2::abcisse()
 {
-	return nX;
+	return fX;
 }
 
 float cPoint2::ordonnee()
 {
-	return nY;
+	return fY;
 }
 
 

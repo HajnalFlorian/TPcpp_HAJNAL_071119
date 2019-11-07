@@ -17,14 +17,15 @@ int main()
 	ptMonPoint.affichage();
 
 	//exercice 2
-	cPoint2 ptPoint(0.0f, 0.0f);
+	/*cPoint2 ptPoint(0.0f, 0.0f);
 	cout << "l'abcisse: " << ptPoint.abcisse() << endl;
 	cout << "Ordonnee : " << ptPoint.ordonnee() << endl;
 	ptPoint.deplacement(2.2f, 3.3f);
 	cout << "l'abcisse: " << ptPoint.abcisse() << endl;
-	cout << "Ordonnee : " << ptPoint.ordonnee() << endl;
-
-
+	cout << "Ordonnee : " << ptPoint.ordonnee() << endl;*/
+	//Exercice 3
+	ptMonPoint.homotesie(3.0f);
+	cout << "Homotesie : " << ptMonPoint.getX() << endl;
 
 	system("pause");
 

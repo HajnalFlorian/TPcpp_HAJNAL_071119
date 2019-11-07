@@ -3,27 +3,37 @@ class cPoint
 {
 private:
 	// point
-	float nX;
-	float nY;
+	float fX;
+	float fY;
 
 public:
 	//Prototype ou déclarations 
 	float getX();
 	float getY();
 
-	void setX(float nX);
-	void setY(float nY);
+	void setX(float fX);
+	void setY(float fY);
 
 	//init
-	void init(float nX, float nY);
+	void init(float fX, float fY);
 
 	//deplacement
-	void deplacement(float nX, float nY);
+	void deplacement(float fX, float fY);
 
 	//constructeur avecc parametre
-	cPoint(float nX, float nY);
+	cPoint(float fX, float fY);
+
 	//affichage
 	void affichage();
+
+	//homotesie
+	void homotesie(float frapport);
+
+	//rotation
+	void rotation(float fangle);
+
+
+
 
 };
 
